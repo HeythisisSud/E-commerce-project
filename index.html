@@ -10,42 +10,41 @@
     <title>Document</title>
     <style>
         body{
-            background: black;
+            background-image: url(background);
+            
+            background-color: black;
         }
-        .ulist1{
+        ul {
           list-style-type: none;
           margin: 0;
           padding: 0;
           overflow: hidden;
-          position: fixed;
-          top: 0;
-          width: 100%;
-          background-color: #333;       
         }
-        .ulist1{
-            box-shadow: 0px 0px 1px 0px rgb(243, 243, 243);
-        }
-        #listall {
+
+        li {
           float: right;
         }
 
-        #listall a {
+        li a {
           display: block;
           color: white;
           text-align: center;
           padding: 14px 16px;
           text-decoration: none;
         }
-        
-        #listall a:hover {
+
+        li a:hover:not(.active) {
           background-color: #111;
         }
 
-        #listall{
-            display: inline;
+        .active {
+          background-color: #04AA6D;
         }
+            
 
+        
         .image1{
+            
             height: 30cm;
             position: absolute;
             filter: blur(20px);
@@ -62,16 +61,16 @@
         .div3{
             width: 11cm;
             height: 12cm;
-            background-color: rgb(255, 255, 255);
             position: absolute;
             z-index: -1;
             right: 0;
             margin-right: 3cm;
             top: 0;
-            border-radius: 20px;
             margin-top: 7cm;
-            box-shadow: 10px 10px 8px #494949; 
-            background-color: rgb(0, 0, 0);  
+            background-color: rgba(16, 0, 235, 0.205);
+            box-shadow: 0px 0px 1px 0px #fcfafa; 
+            border-style: solid;
+            border-color: rgb(0, 0, 0);
 
         }
         .p1{
@@ -80,8 +79,7 @@
             margin: 1cm;
             font-size: 23px;
             position: absolute;
-            margin-top: 2.4cm;
-            
+            margin-top: 3cm;
             margin-left: 1cm;
             font-size: 0.8cm;
             color: rgb(255, 255, 255);
@@ -100,12 +98,17 @@
             width: 4cm;
             height: 1.6cm;
             background: none;
-            left: 0;
+            right: 0;
             position: absolute;
-            margin-top: 6cm;
-            margin-left: 3.5cm;
+            margin-top: 12cm;
+            margin-right: 6.4cm;
             border-style: none;
+            border-radius: 12px;
             box-shadow: 0px 0px 3px 0px white;
+        }
+        .button1:hover{
+            background-color: rgb(2, 26, 71);
+            box-shadow: 2px 2px 6px white;
         }
         .link2{
             text-decoration: none;
@@ -113,37 +116,63 @@
             font-family: 'Roboto';
             
         }
-        .img2{
+        .p2{
+            position: absolute;
+            color: white;
+            font-size: 0.9cm;
+            font-family: 'Roboto', sans-serif;
+            left: 0;
+            margin-top: 8cm;
+            text-align: center;
+            text-shadow: 10px 8px 8px black;
+            margin-left: 2cm;
+        }
+        .p3{
+            position: absolute;
+            color: white;
+            font-size: 0.9cm;
+            font-family: 'Roboto', sans-serif;
+            left: 0;
+            margin-top: 9.9cm;
+            text-align: center;
+            text-shadow: 10px 8px 8px black;
+            margin-left: 3.7cm;
+        }
+        .signin{
+            color: white;
             position: absolute;
             overflow: hidden;
-            width: 11cm;
-            height: 12cm;
-            filter: blur(18px);
-            z-index: -1;
-        }
 
+        }
 
         
 
     </style>
 </head>
 <body>
+    <div class="pdiv">
+    <p class="p2">Looking for Items but dont know where to go?</p>
+    <p class="p3">Then you've come to the right place</p>
+</div>
     <div class="div1">
         <ul class="ulist1">
             <li id="listall" class="list4"><a href="index.html">Inventory</a></li>
-            <li id="listall" class="list3"><a href="index.html">Shop</a></li>
-            <li id="listall" class="list2"><a href=page3.html>Sign in</a></li>
-            <li id="listall" class="list1"><a href=page2.html>Home</a></li>
+            <li id="listall" class="list3"><a href="page3.html">Shop</a></li>
+            <li id="listall" class="list2"><a href=page2.html>Sign in</a></li>
+            <li id="listall" class="list1"><a href=index.html>Home</a></li>
         </ul>
     </div>
     <div class="div2">
-        <img src="background" alt="E-cart" class="image1">
+<!--        <img src="background" alt="E-cart" class="image1">-->
     </div>
     <div class="div3">
         <h1 class="heading1">TechHub</h1>
         <p class="p1">Where the world comes to shop.</p>
-        <button class="button1"><a class="link2" href="page2.html">Shop Now</a></button>
-        <img src="boxbg.jpg" alt="cyan" class="img2">
+
     </div>
+
+
+    <button class="button1"><a class="link2" href="page2.html">Shop Now</a></button>
+
 </body>
 </html>
