@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHub</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <style>
+        body{
+            overflow: hidden;
+        }
+        .div1{
+            width: 42cm;
+            left: 0;
+            top: 0;
+            position: absolute;
+            background-color: rgba(255, 255, 255);
+            height: 1.3cm;
+            box-shadow: 12px 3px 5px rgba(0, 0, 0, 0.37);
+        }
+        #search{
+            left: 0;
+            position: absolute;
+            margin-left: 30cm;
+            margin-top: 0.3cm;
+            color: rgb(0, 0, 0);
+        }
+        
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          margin-right: 13cm;
+        }
+
+        li {
+          float: right;
+        }
+
+        li a {
+          display: block;
+        
+          color: rgb(0, 0, 0);
+          font-family: 'Lato', sans-serif;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        li a:hover:not(.active) {
+          background-color: rgb(255, 255, 255);
+        }
+
+        .active {
+          background-color: #04AA6D;
+        }
+        #cart{
+            position: absolute;
+            color: rgb(0, 0, 0);
+            left: 0;
+            margin-left: 31cm;
+            margin-top: 0.3cm;
+        }
+        #bell{
+            position: absolute;
+            left: 0;
+            margin-left: 32cm;
+            margin-top: 0.3cm;
+            
+        }
+        .div2{
+            width: 42cm;
+            left: 0;
+            top: 0;
+            height: 15cm;
+            background-color: rgba(255, 192, 203, 0.61);
+            z-index: -1;
+
+            position: absolute;
+        }
+        .model{
+            width: 10cm;
+            background: none;
+            left: 0;
+            position: absolute;
+            margin-left: 25cm;
+            margin-top: 0.6cm;
+        }
+        .heading1{
+            position: absolute;
+            margin-top: 5cm;
+            font-family: 'Roboto';
+            left: 0;
+            font-size: 1cm;
+            margin-left: 7cm;
+        }
+        .Shopnow{
+            text-decoration: none;
+            color: black;
+        }
+        .but1{
+            border-radius: 2px;
+            width: 2.6cm;
+            position: absolute;
+            height: 1cm;
+            top: 0;
+            margin-top: 6.8cm;
+            margin-left: 7cm;
+            background-color: rgba(255, 166, 0, 0.541);
+            border-style: none;            
+        }
+
+
+    </style>
+
+    <div class="div1">
+    <i class="material-icons" id="search">search</i>
+    <i class="material-icons" id="cart">shopping_cart</i>
+    <i class="material-icons" id="bell">notifications_outline</i>
+
+        <ul class="list1">
+            <li class="list"><a href="page2.html">Login</a></li>
+            <li class="list"><a href="mailto:sudhanshumani94@gmail.com">Contact</a></li>
+            <li class="list"><a href="page3.html">Shop</a></li>
+            <li class="list"><a href="page3.html">My Cart</a></li>
+            <li class="list"><a href="index.html" class="home">Home</a></li>
+
+
+        </ul>
+    </div>
+    <div class="div2">
+        <img src="model.png" class="model">
+        <h1 class="heading1">Get up to 30% Off Menswear</h1>
+        <button class="but1"><a href="page3.html" class="Shopnow">Shop Now</a></button>
+    </div>
+</body>
+</html>
