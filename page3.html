@@ -8,11 +8,17 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 
 
 
@@ -32,12 +38,12 @@
             height: 1.3cm;
             box-shadow: 12px 3px 5px rgba(0, 0, 0, 0.37);
         }
-        #search{
+        .search{
             left: 0;
-            color: rgba(0, 0, 0, 0.616);
             position: absolute;
             margin-left: 30cm;
             margin-top: 0.3cm;
+            width: 21px;
         }
         
         ul {
@@ -45,7 +51,7 @@
           margin: 0;
           padding: 0;
           overflow: hidden;
-          margin-right: 13cm;
+          margin-right: 2.8cm;
         }
 
         li {
@@ -54,35 +60,37 @@
 
         li a {
           display: block;
+          font-size: 13px;
         
           color: rgb(0, 0, 0);
-          font-family: 'Lato', sans-serif;
+          font-family: 'Quicksand';
           text-align: center;
           padding: 14px 16px;
           text-decoration: none;
         }
         li a:hover:not(.active) {
-          background-color: rgba(238, 156, 156, 0.76);
+            color: rgb(199, 198, 198);
         }
 
         .active {
           background-color: #04AA6D;
         }
-        #cart{
+        .cart{
+            width: 22px; 
             position: absolute;
             color: rgba(0, 0, 0, 0.616);
             left: 0;
             margin-left: 31cm;
             margin-top: 0.3cm;
         }
-        #bell{
+        .bell{
             position: absolute;
             left: 0;
             margin-left: 32cm;
             margin-top: 0.3cm;
             color: rgba(0, 0, 0, 0.616);
-
-            
+            width: 22px;
+            filter: grayscale(100%)
         }
         .div2{
             width: 42cm;
@@ -226,21 +234,162 @@
             margin-left: 0.3cm;
             margin-top: 0.3cm;
         }
+        .div3img2{
+            width: 2.2cm;
+            margin-left: -0.3cm;
+
+        }
+        .div3img3{
+            width: 1.6cm;
+            margin-top: 0.3cm;
+            margin-left: 1.5cm;
+            position: absolute;
+
+        }
+        .div3img4{
+            position: absolute;
+            width: 3cm;
+            left: 0;
+            margin-top: 3.3cm;
+            margin-left: 0.2cm;
+
+        }
+        .cart1{
+            position: absolute;
+            font-family: 'Roboto Condensed';
+            left: 0;
+            top: 0;
+            margin-top: 0.1cm;
+            margin-left: 0.3cm;
+            color: rgba(219, 205, 125, 0.877);
+        }
+        .hub{
+            position: absolute;
+            font-family: 'Roboto Condensed';
+            left: 0;
+            top: 0;
+            margin-top: 0.1cm;
+            margin-left: 2.2cm;
+            color: rgba(0, 0, 0, 0.877);
+        }
+        .hoddiv{
+            position: absolute;
+            width: 2.4cm;
+
+            
+        }
+        .p1{
+            text-align: center;
+            font-family: 'Roboto Condensed';
+            font-weight: bold;
+            font-size: 10px;
+            margin-left: 15px;
+            margin-top: -6px;
+        }
+        .swediv{
+            left: 0;
+            margin-left: 8cm;
+            margin-top: 0.5cm;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            width: 1.6cm;
+
+        }
+        .p2{
+            text-align: center;
+            font-family: 'Roboto Condensed';
+            font-weight: bold;
+            font-size: 10px;
+            margin-left: 4px;
+            margin-top: -6px;
+        }
+        .sumdiv{
+            left: 0;
+            margin-left: 2.7cm;
+            margin-top: 0.5cm;
+            width: 5cm;
+            position: absolute;
+        }
+        .p3{
+            text-align: center;
+            font-family: 'Roboto Condensed';
+            font-weight: bold;
+            font-size: 10px;
+            margin-left: 1.3cm;
+            margin-top: 2cm;
+            position: absolute;
+        }
+        .prodiv{
+            left: 0;
+            position: absolute;
+            width: 3cm;
+            margin-left: -0.3cm;
+        }
+        .p4{
+            left: 0;
+            text-align: center;
+            font-family: 'Roboto Condensed';
+            font-weight: bold;
+            font-size: 10px;
+            margin-left: 0.6cm;
+            margin-top: 6.3cm;
+            position: absolute;
+
+        }
+        .div3img5{
+            width: 3cm;
+            left: 0;
+            position: absolute;
+            margin-top: 3.4cm;
+            margin-left: 3.5cm;
+        }
+        .p5{
+            position: absolute;
+            left: 0;
+            margin-top: 6.4cm;
+            margin-left: 4.3cm;
+            font-family: 'Roboto Condensed';
+            font-weight: bold;
+            font-size: 10px;
+
+
+        }
+        .div3img6{
+            width: 3cm;
+            margin-left: 7.3cm;
+            margin-top: 3.4cm;
+            position: absolute;
+
+
+        }
+        .p6{
+            position: absolute;
+            left: 0;
+            margin-top: 6.4cm;
+            margin-left: 7.6cm;
+            text-align: center;
+            font-family: 'Roboto Condensed';
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+
 
 
     </style>
 
     <div class="div1">
-    <i class="material-icons" id="search">search</i>
-    <i class="material-icons" id="cart">shopping_cart</i>
-    <i class="material-icons" id="bell">notifications_outline</i>
+        <h1 class="cart1">CART</h1>
+        <h1 class="hub">HUB</h1>
+
+
 
         <ul class="list1">
-            <li class="list"><a href="page2.html">Login</a></li>
-            <li class="list"><a href="mailto:sudhanshumani94@gmail.com">Contact</a></li>
-            <li class="list"><a href="page3.html">Shop</a></li>
-            <li class="list"><a href="page3.html">My Cart</a></li>
-            <li class="list"><a href="index.html" class="home">Home</a></li>
+            <li class="list"><a href="page2.html">LOGIN</a></li>
+            <li class="list"><a href="mailto:sudhanshumani94@gmail.com">CONTACT</a></li>
+            <li class="list"><a href="page3.html">SHOP</a></li>
+            <li class="list"><a href="page3.html">MY CART</a></li>
+            <li class="list"><a href="index.html" class="home">HOME</a></li>
 
 
         </ul>
@@ -251,7 +400,34 @@
         <button class="but1"><a href="page3.html" class="Shopnow">Shop Now</a></button>
     </div>
     <div class="div3">
-        <img src="hoodie.png" class="div3img1">
+        <div class="hoddiv">
+            <img src="hoodie.png" class="div3img1">
+            <p class="p1">Lenskart Vincent Chase Polarized</p>
+        </div>
+
+        <div class="swediv">
+            <img src="Sweatshirt.png" class="div3img2">
+            <p class="p2">Monticarlo Winter Sweater</p>
+        </div>
+        <div class="sumdiv">
+            <img src="summer.png" class="div3img3">
+            <p class="p3">ABYS Leather Wallet</p>
+
+        </div>
+        <div class="prodiv">
+            <img src="product_7.png" class="div3img4">
+            <p class="p4">Monticarlo Sweater Large</p>
+        </div>
+        <div class="prodiv1">
+            <img src="product_1.png" class="div3img5">
+            <p class="p5">Men's Hoddie</p>
+        </div>
+        <div>
+            <img src="product_10.png" class="div3img6">
+            <p class="p6">Men's Winter Sweater</p>
+
+        </div>
+
 
 
     </div>
