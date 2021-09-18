@@ -26,14 +26,15 @@
 <body>
     <style>
         body{
-            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: visible;
             background-color: rgba(248, 238, 238, 0.925);
         }
         .div1{
             width: 42cm;
             left: 0;
             top: 0;
-            position: absolute;
+            position: fixed;
             background-color: rgba(255, 255, 255);
             height: 1.3cm;
             box-shadow: 12px 3px 5px rgba(0, 0, 0, 0.37);
@@ -142,6 +143,7 @@
             margin-top: 8cm;
             margin-left: 29cm;
             box-shadow: 5px 0px 60px black;
+            overflow: hidden;
         }
         .div4{
             width: 8cm;
@@ -216,7 +218,8 @@
 
         }
         .heading4{
-            font-family: 'Roboto Condensed', sans-serif;            text-align: center;
+            font-family: 'Roboto Condensed', sans-serif;
+            text-align: center;
             font-size: 20px;
             background-color: white;
             color: black;
@@ -372,6 +375,28 @@
             font-weight: bold;
             font-size: 10px;
         }
+        .dealdiv{
+            width: 10cm;
+            overflow: hidden;
+            height: 5cm;
+            position: absolute;
+            margin-top: 7.7cm;
+            background-color: coral;
+        }
+        .deal{
+            left: 0;
+            margin-left: 0.1cm;
+            top: 0;
+            width: 4cm;
+            position: absolute;
+        }
+        .hdeal{
+            font-family: 'Roboto Condensed';
+            font-size: 0.8cm;
+            margin-left: 4.2cm;
+            position: absolute;
+            margin-top: 1.4cm;
+        }
 
 
 
@@ -426,6 +451,10 @@
             <img src="product_10.png" class="div3img6">
             <p class="p6">Men's Winter Sweater</p>
 
+        </div>
+        <div class="dealdiv">
+            <img src="deal_ofthe_week.png" class="deal">
+            <h1 class="hdeal">Deal of the week</h1>
         </div>
 
 
